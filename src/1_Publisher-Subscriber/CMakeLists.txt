@@ -18,6 +18,6 @@ add_executable(publisher src/publisher.cpp)
 target_link_libraries(publisher ${catkin_LIBRARIES})
 add_dependencies(publisher nomor1_generate_messages_cpp)
 
-add_executable(subscriber src/listener.cpp)
+add_executable(subscriber src/subcriber.cpp)
 target_link_libraries(subscriber ${catkin_LIBRARIES})
 add_dependencies(subscriber nomor1_generate_messages_cpp)
